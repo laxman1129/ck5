@@ -21,7 +21,9 @@
             "content/css/vendor.css",
             "content/css/global.css"
         ],
-        "scripts": []
+        "scripts": [
+            "../node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"
+        ]
     }],
     "lint": [{
             "project": "../../../tsconfig.json"
